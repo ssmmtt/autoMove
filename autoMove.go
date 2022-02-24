@@ -8,6 +8,7 @@ import (
 	"time"
 )
 
+// 判断是否是工作时间
 func workTime() bool {
 	h := time.Now().Hour()
 	if 9 < h && h < 20 {
